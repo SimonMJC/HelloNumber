@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finishActivity"
+    android:orientation="vertical"
+    android:background="#7F49DB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/dgmo"
+        android:gravity="center"
+        android:text="여기까지,,,"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dgmo"
+            android:text="또 볼래요!"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/dgmo"
+            android:text="잘 거에요ㅜ"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/dgmo"
+        android:gravity="bottom"
+        android:text="추가 항목 및 정보는 개발자에게 알려주세요!"
+        android:textColor="#000000" />
+</LinearLayout>
+
+
+</LinearLayout>
